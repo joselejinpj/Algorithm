@@ -72,7 +72,7 @@ var canCompleteCircuit = function(gas, cost) {
         
         total+= currentOffer;
     }
-    
+     
     if(total >= 0) 
        return start;
     else
