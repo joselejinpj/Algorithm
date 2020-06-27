@@ -41,7 +41,7 @@ Explanation: The endWord "cog" is not in wordList, therefore no possible transfo
 
 *****/
 
-var WordNode = function(word, numSteps){
+var WordNode = function(word, numSteps) {
     this.word = word? word: "";
     this.numSteps = numSteps? numSteps:0; 
 }
