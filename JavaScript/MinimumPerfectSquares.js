@@ -2,7 +2,10 @@
 
 Given a positive integer n, find the minimum number of perfect square numbers (for example, 1, 4, 9, ...) which sum to n.
 
-Example 1:
+-----------------
+Sample Test Cases
+-----------------
+Test Case 1:
 
 Input:  n = 100
 Output: 1
@@ -10,7 +13,7 @@ Output: 1
 100 can be written as sqaure of 10. Note that 100 can also be  written as sqaure(5) + sqaure(5) + sqaure(5) + sqaure(5), but this representation requires 4 squares. 
 What we need is minimum, which is 1.
 
-Example 2:
+Test Case 2:
 
 Input: n = 12
 Output: 3 
