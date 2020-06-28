@@ -41,3 +41,4 @@ var findMaxLength = function(nums) {
     
     return maxLen;
 };
+ 
