@@ -2,4 +2,4 @@
 Algorithms in different programming languages.
 
 # License
-This project is licensed under the MIT License.
+All the contents are licensed under the MIT License.
