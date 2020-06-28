@@ -71,8 +71,9 @@ class Solution {
 
                 if (copyBoard[row][col] == 0 && liveNeighbors == 3) {
                     board[row][col] = 1;
-                }
+                } 
             }
         }
     }
 }
+ 
