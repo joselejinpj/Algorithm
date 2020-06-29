@@ -34,9 +34,9 @@ public:
                 
                 // Move window as needed
                 if (sum < target)
-                    ++low;
+                    low++;
                 else
-                    --high;
+                    high--;
             }
         }
         
