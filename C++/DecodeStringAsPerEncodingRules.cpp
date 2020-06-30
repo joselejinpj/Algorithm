@@ -80,7 +80,7 @@ public:
         } 
 
         // Result in string stack 
-        while (! stringstack.empty()) { 
+        while (!stringstack.empty()) { 
             result = stringstack.top() + result; 
             stringstack.pop(); 
         } 
