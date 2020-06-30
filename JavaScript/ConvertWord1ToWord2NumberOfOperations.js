@@ -69,3 +69,4 @@ function minDistanceHelper(word1, word2, word1Len, word2Len, mem) {
     
     return mem[word1Len-1][word2Len-1];
 }
+ 
