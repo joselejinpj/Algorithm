@@ -26,3 +26,4 @@ Explanation: 2 pow 4 = 16
 var isPowerOfTwo = function(n) {
     return n>0 && (n&n-1)==0; // n and n-1 must have no 1s in common
 };
+ 
