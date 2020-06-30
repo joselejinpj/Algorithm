@@ -46,3 +46,4 @@ var longestValidParentheses = function(s) {
     
     return longestValid;
 };
+ 
