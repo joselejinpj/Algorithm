@@ -59,7 +59,7 @@ public:
                     stringstack.pop(); 
 
 
-                for (int j = 0; j < count; j++) 
+                for (int j = 0; j < count; j++) // Repeat count times
                     result = result + temp; 
 
                 for (int j = 0; j < result.length(); j++) 
