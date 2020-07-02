@@ -50,15 +50,17 @@ class Solution {
 
         current.offer(root);
 
-        ArrayList<Integer> numberList = new ArrayList<Integer>();
+        ArrayList<Integer> currentList = new ArrayList<Integer>();
 
         while(!current.isEmpty()) {
             TreeNode head = current.poll();
-            numberList.add(head.val);
+            
+            currentList.add(head.val);
 
             if(head.left != null){
                 next.offer(head.left);
             }
+            
             if(head.right!= null){
                 next.offer(head.right);
             }
@@ -66,8 +68,8 @@ class Solution {
             if(current.isEmpty()){
                 current = next;
                 next = new LinkedList<TreeNode>(); // Reset
-                result.add(numberList);
-                numberList = new ArrayList<Integer>(); // Reset
+                result.add(currentList);
+                currentList = new ArrayList<Integer>(); // Reset
             }
         }
 
@@ -80,3 +82,4 @@ class Solution {
         return reversedResult;
     }    
 }
+
