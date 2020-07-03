@@ -53,3 +53,4 @@ class Solution {
         return result*result;
     }
 }
+ 
