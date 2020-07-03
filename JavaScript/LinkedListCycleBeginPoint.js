@@ -66,3 +66,4 @@ var detectCycle = function(head) {
   
     return slow;     
 };
+ 
