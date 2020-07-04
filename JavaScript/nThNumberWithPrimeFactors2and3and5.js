@@ -25,9 +25,9 @@ var nthUglyNumber = function(n) {
     
     dp.push(1);
  
-    var i=0;
-    var j=0;
-    var k=0;
+    var i = 0;
+    var j = 0;
+    var k = 0;
  
     while(dp.length < n) {
         var m2 = dp[i]*2;
@@ -49,3 +49,4 @@ var nthUglyNumber = function(n) {
  
     return dp[dp.length-1];    
 };
+ 
