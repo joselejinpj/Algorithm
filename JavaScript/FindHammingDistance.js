@@ -32,3 +32,4 @@ var hammingDistance = function(x, y) {
     
     return binStr=="0"? 0: binStr.slice(binStr.indexOf("1")).length;
 };
+ 
