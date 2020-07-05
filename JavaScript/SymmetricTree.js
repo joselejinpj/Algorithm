@@ -56,8 +56,7 @@ function isMirror(tree1, tree2) {
         return false;
     
     return tree1.val==tree2.val 
-            && isMirror(tree1.left, tree2.left)
-            && isMirror(tree1.right, tree2.right);
+            && isMirror(tree1.left, tree2.right)
+            && isMirror(tree1.right, tree2.left);
     
 }
- 
