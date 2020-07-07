@@ -38,7 +38,6 @@ var reverseWords = function(s) {
     
     return sArr.join("").replace(/\s+/g,' ').trim();
 };
-
  
 function reverse(s, i, j) {
     while(i<j){
@@ -51,3 +50,4 @@ function reverse(s, i, j) {
         j--;
     }
 }
+ 
