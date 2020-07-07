@@ -61,3 +61,4 @@ function numofneighbours(grid, i, j) {
 
     return count; 
 }    
+ 
