@@ -34,3 +34,4 @@ class Solution(object):
                 base = i + 1
             
         return ans
+ 
