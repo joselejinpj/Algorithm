@@ -32,14 +32,12 @@ class Solution {
         Queue<Integer> heap = new PriorityQueue<>(
             (n1, n2) -> count.get(n1) - count.get(n2));
 
-
         for (int n: count.keySet()) {
             heap.add(n);
             
             if (heap.size() > k) 
                 heap.poll();    
         }
-
 
         int[] top = new int[k];
         
