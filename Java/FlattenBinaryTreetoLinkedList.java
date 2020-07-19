@@ -28,8 +28,7 @@ Output:
         5
          \
           6
-
-*****/
+****/
 
 /**
  * Definition for a binary tree node.
