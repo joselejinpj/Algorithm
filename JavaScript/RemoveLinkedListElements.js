@@ -42,3 +42,4 @@ var removeElements = function(head, val) {
  
     return helper.next;    
 };
+ 
