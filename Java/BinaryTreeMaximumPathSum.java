@@ -68,7 +68,7 @@ class Solution {
         // Choose the maximum Result. 
         res.val = Math.max(res.val, max); 
   
-        return max; 
+        return maxSingle; 
     } 
   
     public int maxPathSum(TreeNode root) {
