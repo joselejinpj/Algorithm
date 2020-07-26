@@ -28,3 +28,4 @@ var addDigits = function(num) {
 
     return num % 9;    
 };
+ 
