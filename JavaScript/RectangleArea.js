@@ -11,10 +11,10 @@ Each rectangle is defined by its bottom left corner and top right corner.
  .      .   .                       .
  ............                       .
 (A,B)   .                           .
-	    .                           .
-	    .                           .
-	    .............................
-		(E,F)
+        .                           .
+        .                           .
+        .............................
+        (E,F)
     
 -----------------
 Sample Test Cases
