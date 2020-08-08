@@ -51,3 +51,4 @@ var computeArea = function(A, B, C, D, E, F, G, H) {
  
     return (G-E)*(H-F) + (C-A)*(D-B) - (right-left)*(top-bottom);    
 };
+ 
