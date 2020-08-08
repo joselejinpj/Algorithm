@@ -38,7 +38,7 @@ Output: 45
  * @return {number}
  */
 var computeArea = function(A, B, C, D, E, F, G, H) {
-    if(C<E||G<A )
+    if(C<E || G<A )
         return (G-E)*(H-F) + (C-A)*(D-B);
  
     if(D<F || H<B)
