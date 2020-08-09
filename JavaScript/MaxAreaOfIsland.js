@@ -51,3 +51,4 @@ function area(r, c, grid, seen) {
     
     return 1 + area(r+1, c, grid, seen) + area(r-1, c, grid, seen) + area(r, c-1, grid, seen) + area(r, c+1, grid, seen);
 }
+ 
