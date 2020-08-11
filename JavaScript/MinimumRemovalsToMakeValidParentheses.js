@@ -53,3 +53,4 @@ var minRemoveToMakeValid = function(s) {
 	
 	return result.reverse().join("");
 };
+ 
