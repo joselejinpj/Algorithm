@@ -52,3 +52,4 @@ function height(node)
 
 	return (1 + Math.max(height(node.left), height(node.right))); 
 } 
+ 
