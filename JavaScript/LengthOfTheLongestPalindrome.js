@@ -39,3 +39,4 @@ var longestPalindrome = function(s) {
     
     return res;    
 };
+ 
