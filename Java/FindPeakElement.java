@@ -31,3 +31,4 @@ class Solution {
         return search(nums, mid + 1, right);
     }
 }
+ 
