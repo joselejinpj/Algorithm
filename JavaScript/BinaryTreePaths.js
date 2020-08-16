@@ -58,3 +58,4 @@ function getBinaryTreePaths (root, result, s) {
     if(root.right!=null)
         getBinaryTreePaths (root.right, result, s);
 }
+ 
