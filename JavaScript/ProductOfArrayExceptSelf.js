@@ -37,3 +37,4 @@ var productExceptSelf = function(nums) {
 
     return result;    
 };
+ 
