@@ -44,3 +44,4 @@ var findMin = function(nums) {
     
     return -1;    
 };
+ 
