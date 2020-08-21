@@ -2,7 +2,6 @@
 
 Given an integer input n, generate all structurally unique binary search trees that store values 1 ... n.
 
-
 -----------------
 Sample Test Cases
 -----------------
