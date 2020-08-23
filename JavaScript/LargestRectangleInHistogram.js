@@ -25,12 +25,15 @@ Above is a histogram where width of each bar is 1, given height = [2,1,5,6,2,3].
 215623
 
    6
-  5#
+  5*
   ##
   ## 3
 2 ##2*
 *1##**
 **##**
+
+215623
+
 The largest rectangle is shown in the #, which has area = 10.
 
 *****/
