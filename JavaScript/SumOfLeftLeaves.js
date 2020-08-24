@@ -39,3 +39,4 @@ var sumOfLeftLeaves = function(root) {
     else
         return sumOfLeftLeaves(root.left) + sumOfLeftLeaves(root.right);
 };
+ 
