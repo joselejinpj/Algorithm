@@ -38,3 +38,4 @@ class Solution:
                 last_included = i
         
         return count        
+ 
