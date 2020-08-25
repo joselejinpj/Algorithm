@@ -63,9 +63,8 @@ var reorderList = function(head) {
 };
 
 function reverseList(head) {
-    if (head == null || head.next == null) {
+    if (head == null || head.next == null) 
         return head;
-    }
 
     var pre = head;
     var curr = head.next;
@@ -82,4 +81,3 @@ function reverseList(head) {
 
     return pre;
 }
- 
