@@ -60,3 +60,4 @@ var numsSameConsecDiff = function(N, K) {
 
     return queue;    
 };
+ 
