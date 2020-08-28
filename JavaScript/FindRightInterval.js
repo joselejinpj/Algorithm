@@ -76,3 +76,4 @@ var findRightInterval = function(intervals) {
 
     return res;    
 };
+ 
