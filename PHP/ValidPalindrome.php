@@ -25,4 +25,3 @@ class Solution {
         return $s === strrev($s);      
     }
 }
- 
