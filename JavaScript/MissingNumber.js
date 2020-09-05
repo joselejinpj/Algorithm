@@ -24,3 +24,4 @@ var missingNumber = function(nums) {
     
     return expectedSum - actualSum;    
 };
+ 
