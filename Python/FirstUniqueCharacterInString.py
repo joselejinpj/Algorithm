@@ -21,4 +21,3 @@ class Solution:
                 return idx  
             
         return -1
-        
