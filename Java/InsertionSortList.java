@@ -27,17 +27,17 @@ class Solution {
 		if (head == null || head.next == null)
 			return head;
  
-		ListNode newHead = new ListNode(head.val);
+		ListNode resultHead = new ListNode(head.val);
 		ListNode pointer = head.next;
  
 		while (pointer != null) {
-			ListNode innerPointer = newHead;
+			ListNode innerPointer = resultHead;
 			ListNode next = pointer.next;
  
-			if (pointer.val <= newHead.val) {
-				ListNode oldHead = newHead;
-				newHead = pointer;
-				newHead.next = oldHead;
+			if (pointer.val <= resultHead.val) {
+				ListNode oldHead = resultHead;
+				resultHead = pointer;
+				resultHead.next = oldHead;
 			} else {
 				while (innerPointer.next != null) {
  
@@ -59,6 +59,6 @@ class Solution {
 			pointer = next;
 		}
  
-		return newHead;
+		return resultHead;
 	}
 }
