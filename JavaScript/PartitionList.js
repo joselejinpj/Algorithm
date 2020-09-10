@@ -50,3 +50,4 @@ let partition = function(head, x) {
 
     return before_head.next;    
 };
+ 
