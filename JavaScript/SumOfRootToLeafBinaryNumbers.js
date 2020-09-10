@@ -51,3 +51,4 @@ let preorder = (node, currNumber) => {
         preorder(node.right, currNumber);
     }
 };
+ 
