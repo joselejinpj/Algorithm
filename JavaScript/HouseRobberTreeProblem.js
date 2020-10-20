@@ -66,6 +66,7 @@ function robHelper(root) {
     
     // Case 1: Including root
     result[0] = root.val + left[1] + right[1];
+     // Case 2: Not including root
     result[1] = Math.max(left[0], left[1]) + Math.max(right[0], right[1]);
     
     return result;
