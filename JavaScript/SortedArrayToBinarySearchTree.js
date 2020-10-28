@@ -20,7 +20,7 @@ One possible answer is: [0,-3,9,-10,null,5], which represents the following BST:
  -10  5
 
 *****/
-
+ 
 /**
  * Definition for a binary tree node.
  * function TreeNode(val, left, right) {
@@ -49,4 +49,4 @@ function sortedArrayToBSTUtil(arr, start, end) {
 
     return node;   
 } 
-  
+ 
