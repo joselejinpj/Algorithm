@@ -1,7 +1,7 @@
 /*****
 
 You are given integer array prices where prices[i] is the price of a stock on the ith day. Design an algorithm to find the maximum profit. 
-Maximum k transactions allowed.
+Maximum k transactions are allowed.
 
 -----------------
 Sample Test Cases
@@ -59,3 +59,4 @@ var maxProfit = function(k, prices) {
 
 	return profit[k][n - 1];     
 };
+ 
